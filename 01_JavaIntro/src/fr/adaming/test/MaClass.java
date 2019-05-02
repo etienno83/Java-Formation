@@ -10,7 +10,7 @@ package fr.adaming.test;
 public class MaClass {
 	/**
 	 * la methode main est le point d'entree de mon application
-	 * @param args ceci est un tableau de sstring
+	 * @param args ceci est un tableau de sstring - test
 	 */
 	public static void main(String[] args){
 		System.out.println("Bonjour tout le moonde!");
