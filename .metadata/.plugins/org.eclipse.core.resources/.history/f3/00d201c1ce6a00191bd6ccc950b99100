@@ -1,0 +1,14 @@
+package fr.adaming.test1;
+
+public class Exo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int min = 1;
+		int max = 6;
+		int r = (int) (Math.random() * (max - min)) + min;
+		System.out.println(r);
+		}
+	}
+

@@ -1,0 +1,3 @@
+//Static permet de rendre un attribut en variable de classe != d'une variable d'objet
+//pour appeler une methode static pas la peine d'instancier un objet
+//il suffit d'appeler la classe

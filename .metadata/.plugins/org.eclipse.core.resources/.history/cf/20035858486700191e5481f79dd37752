@@ -1,0 +1,8 @@
+package fr.adaming.test;
+
+public class MaClass {
+	public static void main(String[] args){
+		System.out.println("Bonjour tout le moonde!");
+	}
+
+}

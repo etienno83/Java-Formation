@@ -1,0 +1,79 @@
+package fr.adaming.modeldes;
+
+import java.util.Scanner;
+
+public class ModelDes {
+	public static void main(String[] args) {
+		// Scanner
+		Scanner sc = new Scanner(System.in);
+
+		// initialisation des variables
+		char reponse = ' ', mode = ' ';
+
+		System.out.println("JEU DE LANCER DE DES");
+		System.out.println("-------------------------------------------------");
+
+		do {// tant que reponse = O //boucle principale
+
+			do {// tant que reponse n'est pas O ou N
+				mode = ' ';
+				System.out.println("Bienvenue dans ce jeu de lancer de des");
+				System.out.println("1 - Je tente ma chance");
+				System.out.println("2 - J'ai jamais de chance je préfère passer mon chemin");
+				mode = sc.nextLine().charAt(0);
+				System.out.println("Et c'est partiiiii");
+				
+				if (mode != '1' && mode != '2')
+					System.out.println("On est indécis? Allez presse le 1 ;)");
+
+			} while (mode != '1' && mode != '2');
+
+			if (mode == '1') {
+				int min = 1;
+				int max = 6;
+				int[] des1 = { 0, 0, 0, 0, 0, 0 };
+				int[] des2 = { 0, 0, 0, 0, 0, 0 };
+				int[] des3 = { 0, 0, 0, 0, 0, 0 };
+
+				for (int i = 0; i < 6; i++) {
+					int r = (int) (Math.random() * (max - min)) + min;
+					des1[i] = r;
+				}
+				for (int i = 0; i < 6; i++) {
+					int r = (int) (Math.random() * (max - min)) + min;
+					des2[i] = r;
+				}
+				for (int i = 0; i < 6; i++) {
+					int r = (int) (Math.random() * (max - min)) + min;
+					des3[i] = r;
+				}
+
+				int[] DES[] = { des1, des2, des3 };
+
+				if (DES[0].equals(DES[1]) || DES[0].equals(DES[2])
+						|| DES[1].equals(DES[2])) {
+					System.out
+							.println("Bien joué! Une chance sur 18564! Vas plutôt jouer au loto!");
+				} else {
+					System.out.println("C'est raté, vraiment nul");
+
+				}
+			}
+			// On invite l'utilisateur à recommencer ou à quitter
+			do {
+				System.out.println("\nOn retente ?(o/n)");
+				reponse = sc.nextLine().charAt(0);
+
+			} while (reponse != 'o' && reponse != 'n');
+
+		} while (reponse == 'o');
+
+		System.out.println("A plus!");
+
+		// Fin de programme
+	}
+
+	public static double arrondi(double A, int B) {
+		return (double) ((int) (A * Math.pow(10, B) + .5)) / Math.pow(10, B);
+	}
+}

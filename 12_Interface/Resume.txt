@@ -1,0 +1,9 @@
+//Le nom d'une interface commence toujours par I.
+//Une constante s'écrit en MAJUSCULE, toujours public static final. 
+//Les attributs d'une interface sont par défauts public static final.
+De la meme facon toute les methodess sont abstraites donc pas besoin de déclarer abstract.
+//Par contre les méthodes peuvent etre private.
+//De la meme facon que generalise s'ecrit extends, la réalisation d'une interface s'ecrit implements.
+//Attention il faut implementer lkes méthodes de l'interface en override pour la rendre concrete.
+//Consequence directe du polymorphisme est la programmation par Interface
+//i.e le typage des objets par leur interface.

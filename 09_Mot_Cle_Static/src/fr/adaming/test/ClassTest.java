@@ -1,0 +1,24 @@
+package fr.adaming.test;
+
+import fr.adaming.model.Personne;
+
+public class ClassTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//instancier p1
+		Personne p1 = new Personne();
+		
+		System.out.println("La valeur du compeur p1 est " + p1.getCompteur());
+		
+		//instancier p2
+		Personne p2 = new Personne("Toto", "Titi");
+		System.out.println("La valeur du compteur de p2 est " + p2.getCompteur());
+		
+		//pour appeler une methode static pas la peine d'instancier un objet
+		//il suffit d'appeler la classe
+		Personne.manger();
+	}
+
+}

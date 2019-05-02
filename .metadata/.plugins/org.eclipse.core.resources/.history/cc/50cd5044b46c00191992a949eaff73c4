@@ -1,0 +1,9 @@
+package fr.adaming.model.banque;
+
+public class CompteCourant extends Compte{
+	
+	protected double decouvert;
+	
+	
+
+}

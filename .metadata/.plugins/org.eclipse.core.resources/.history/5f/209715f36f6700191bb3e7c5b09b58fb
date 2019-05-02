@@ -1,0 +1,21 @@
+package fr.adaming.test;
+
+import fr.adaming.model.Personne;
+
+public class ClassTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Declaration d'une variable de type objet
+		Personne p1;
+		
+		//construire des objets dans la memoire (instancier des objets de la classe Personne) 
+		//grace a l'operateur new suivit du constructeur de la classe
+		
+		p1 = new Personne();
+		
+		System.out.println(p1);
+		System.out.println("La valeur du nom de p1 est : " + p1.nom);
+	}
+
+}

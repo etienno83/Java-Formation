@@ -1,0 +1,6 @@
+package fr.adaming.model.heritage;
+
+public class Lyceen {
+	char bac;
+
+}

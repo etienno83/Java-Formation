@@ -1,0 +1,16 @@
+//1	Heritage d'une classe qui généralise une autre avec extends
+//2	Le super permet d'appeler explicitement une methode/ un attribut de la fille à la mere super.methode(), super.variable
+//3	Protected visible par l'instance, les sous classe et l'ensemble du package, 
+//4	Visibilité
+//		a	Protected visible par l'instance, les sous classe et l'ensemble du package
+//		b	Private visible que par la classe 
+//		c	Public visible partout
+//5	Polymorphisme
+//Consequence directe du polymorphisme est de typer les objets de la classe fille 
+//par la classe  mere. Le type sera celui de la classe fille 
+//et les méthodes celles de la classe fille.
+//		a	Redefinition, s'annonce avec @Override, permet d'ecraser la methode classe mere 
+//				en utilisant sa signature dans la classe fille
+//		b	Surcharge type, ordre, nombre de parametre differents en entrée de méthodes 
+//			avec meme signature différents
+//		c	Généricité

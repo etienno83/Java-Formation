@@ -1,0 +1,22 @@
+package fr.adaming.model.heritage;
+
+public class Etudiant {
+	
+	public String formation;
+
+	public Etudiant(String formation) {
+		super();
+		this.formation = formation;
+	}
+
+	public String getFormation() {
+		return formation;
+	}
+
+	public void setFormation(String formation) {
+		this.formation = formation;
+	}
+	
+	
+
+}

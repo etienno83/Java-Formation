@@ -1,0 +1,2 @@
+//toString permet de montrer les attributs d'un objet
+//toString peut etre appelé de facon implicite dans le main 

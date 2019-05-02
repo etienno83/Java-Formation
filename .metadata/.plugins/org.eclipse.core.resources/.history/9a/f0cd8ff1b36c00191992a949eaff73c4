@@ -1,0 +1,61 @@
+package fr.adaming.model.banque;
+
+public class Compte {
+	
+	private int numero;
+	private String nomTitulaire;
+	private double solde;
+	
+	
+	public Compte() {
+		super();
+	}
+
+
+	public Compte(int numero, String nomTitulaire, double sole) {
+		super();
+		this.numero = numero;
+		this.nomTitulaire = nomTitulaire;
+		this.solde = sole;
+	}
+
+
+	public int getNumero() {
+		return numero;
+	}
+
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+
+	public String getNomTitulaire() {
+		return nomTitulaire;
+	}
+
+
+	public void setNomTitulaire(String nomTitulaire) {
+		this.nomTitulaire = nomTitulaire;
+	}
+
+
+	public double getSole() {
+		return solde;
+	}
+
+
+	public void setSole(double sole) {
+		this.solde = sole;
+	}
+	
+	public void depotArgent(double montant){
+		
+	}
+	public void argent(double montant){
+		
+	}
+	public double consulterSolde(){
+		return solde;
+	}
+}

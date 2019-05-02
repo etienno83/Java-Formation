@@ -1,0 +1,19 @@
+package fr.adaming.test;
+
+import fr.adaming.model.Etudiant;
+
+public class ClassTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//instancier un etudiant
+		//Etudiant e1 = new Etudiant();
+		
+		//instancier un etudiant avec un constructeur avec parametres
+		Etudiant e2 = new Etudiant("Roger", "Rabbit", 27, 1245);
+		
+		System.out.println(e2.getNom());
+		
+	}
+}

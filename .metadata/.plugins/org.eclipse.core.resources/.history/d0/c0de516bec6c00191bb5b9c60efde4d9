@@ -1,0 +1,45 @@
+package fr.adaming.service.mairie;
+
+public class Mairie {
+	
+	private String adresse;
+	private String nom;
+	
+	public Mairie() {
+		super();
+	}
+
+
+	public String getAdresse() {
+		return adresse;
+	}
+
+
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
+	}
+
+
+	public String getNom() {
+		return nom;
+	}
+
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+
+	public Mairie(String adresse, String nom) {
+		super();
+		this.adresse = adresse;
+		this.nom = nom;
+	}
+	
+	public boolean unir(p1,p2){
+		
+	}
+	
+	
+
+}

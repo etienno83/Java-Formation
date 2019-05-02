@@ -1,0 +1,2 @@
+//ajouter final a une classe permet d'empecher l'heritage de cette classe. 
+//Aucune autre classe peut heriter de ces attributs/methodes.

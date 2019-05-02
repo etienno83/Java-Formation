@@ -1,0 +1,11 @@
+//1	Heritage d'une classe qui généralise une autre avec extends
+//2	Le super permet d'appeler explicitement une methode/ un attribut de la fille à la mere
+//3	Protected visible par l'instance, les sous classe et l'ensemble du package, 
+//4	Visibilité
+//		a	Protected visible par l'instance, les sous classe et l'ensemble du package
+//		b	Private visible que par la classe 
+//		c	Public visible partout
+//5	Polymorphisme
+//		a	Redefinition
+//		b	Surcharge
+//		c	Généricité

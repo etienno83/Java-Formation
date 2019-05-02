@@ -1,0 +1,20 @@
+package fr.adaming.testvoyelle;
+
+import fr.adaming.modelvoyelle.Chaine1;
+
+public class ClassTestVoyelle {
+
+	public static void main(String[] args) {
+		//pour appeler une méthode non static il faut instancier un objet:
+		String str = "Salut à tous comment ça va";
+
+		Chaine1 tt = new Chaine1();
+
+		StringBuilder[] res = tt.extraction(str);
+		
+		System.out.println(res);
+		
+
+	}
+
+}

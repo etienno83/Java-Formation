@@ -1,0 +1,11 @@
+package fr.adaming.model;
+
+public class MaClass {
+
+	public String atr;
+
+	public void assigner(String atr) {
+		this.atr = atr;
+	}
+
+}

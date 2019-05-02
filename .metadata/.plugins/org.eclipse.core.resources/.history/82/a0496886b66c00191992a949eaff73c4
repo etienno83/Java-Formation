@@ -1,0 +1,33 @@
+package fr.adaming.model.banque;
+
+public class CompteCourant extends Compte {
+
+	protected double decouvert;
+
+	public CompteCourant() {
+		super();
+	}
+
+	public CompteCourant(int numero, String nomTitulaire, double solde,
+			double decouvert) {
+		super(numero, nomTitulaire, solde);
+		this.decouvert = decouvert;
+	}
+
+
+
+	public double getDecouvert() {
+		return decouvert;
+	}
+
+	public void setDecouvert(double decouvert) {
+		this.decouvert = decouvert;
+	}
+	public void retirerArgent(double montant){
+		if(super.solde - montant > 0){
+			super.solde-=montant;
+		}else{
+			
+		}
+	}
+}

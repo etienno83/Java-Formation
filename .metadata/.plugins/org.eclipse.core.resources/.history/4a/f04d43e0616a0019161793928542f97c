@@ -1,0 +1,32 @@
+package fr.adaming.test3;
+
+import java.util.Scanner;
+
+public class Exo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Voulez vous jouer?");
+		System.out.println("O pour Oui");
+		System.out.println("N pour Non");
+		String rep = sc.nextLine();
+		do{
+		System.out.println("Veuillez saisir un nombre :");
+		int str = sc.nextInt();
+		if (str>0){
+			System.out.println(str + " est positif.");
+		}
+		else{
+			System.out.println(str + " est négatif.");
+		}
+		if(str%2 == 0){
+			System.out.println(str + "est pair.");
+		}
+		else{
+			System.out.println(str + "est impair.");
+		}
+	}while(rep != "N");
+	}
+}

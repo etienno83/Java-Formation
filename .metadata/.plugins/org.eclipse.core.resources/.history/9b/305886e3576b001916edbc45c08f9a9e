@@ -1,0 +1,48 @@
+package fr.adaming.model;
+
+public class Etudiant extends Personne {
+	// Declaration attributs
+	private int numEtu;
+
+	// Constructeurs
+	public Etudiant() {
+		// appel explicite du constructeur vide de la classe mere
+		super();
+		System.out.println("Je suis dans le constructeur vide de Etudiant");
+	}
+
+	public Etudiant(String nom, String prenom, int age, int numEtu) {
+		// appel explicite du constructeur avec parametres de Personne
+		super(nom, prenom, age);
+		this.numEtu = numEtu;
+		System.out
+				.println("Je suis dans le constructeur avec parametres de Etudiant");
+	}
+
+	// Getters/ Setters
+	public int getNumEtu() {
+		return numEtu;
+	}
+
+	public void setNumEtu(int numEtu) {
+		this.numEtu = numEtu;
+	}
+
+	// methode Etudiant
+	public void reviser(String cours) {
+		System.out.println("Je révise le cours : " + cours);
+	}
+
+	public String recupInfos() {
+		String infos = "Le nom est " + this.getNom() + "\nle prénom est "
+				+ this.prenom + "\nl'age est " + this.age;
+		return infos;
+	}
+
+	// polymorphisme sur manger() de Personne
+	@Override
+	public void manger() {
+		System.out.println("Je suis Etudiant donc je mange au RU");
+	}
+
+}

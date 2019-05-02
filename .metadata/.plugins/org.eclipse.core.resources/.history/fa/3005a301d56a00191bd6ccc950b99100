@@ -1,0 +1,12 @@
+package ChoixMultiplesModel;
+
+public class ChoixMultiplesModel {
+
+	private String Cat = new String();
+	private int place;
+	private double montant;
+	
+	public ChoixMultiplesModel(String Cat, int place, double montant){
+		
+	}
+}

@@ -1,0 +1,7 @@
+package fr.adaming.model.banque;
+
+public class CompteEpargne extends Compte {
+	
+	protected double taux;
+
+}

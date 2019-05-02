@@ -1,0 +1,5 @@
+// Une classe abstraite ne peut pas être instanciée. Elle sert uniquement à factoriser son code. Elle est générale à d'autres classes filles.
+// Pour rendre une classe abstraite il suffit d'écrire abstract entre public et "NomClasse"
+// On crée tout de même les constructeurs afin de pouvoir "communiquer avec les classes filles. 
+// On peut rajouter abstract à une méthode concrete : public abstract void "nomMethode". Son comportement sera défini dans les classe filles. 
+//		Sa signature sera fini par un ; et non un {}. 

@@ -1,0 +1,25 @@
+package fr.adaming.test.des;
+
+import fr.adaming.service.des.JeuDeDes;
+
+public class ClassTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//instanciation de l'objet
+		JeuDeDes j = new JeuDeDes();
+		
+		//appel de la methode jouer
+		int[] resultat =j.jouer();
+		
+		//exploitation du resultat de la methode
+		if(resultat[0] == resultat[1] || resultat[0] == resultat[2] || resultat[1] == resultat[2]){
+			System.out.println("C'est gagné " + resultat[0] + resultat[1] + resultat[2]);
+		}else{
+			System.out.println("C'est raté " + resultat[0] + resultat[1] + resultat[2]);
+		}
+		
+	}
+
+}

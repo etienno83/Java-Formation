@@ -1,0 +1,7 @@
+package fr.adaming.model.heritage;
+
+public class Etudiant {
+	
+	public String formation;
+
+}

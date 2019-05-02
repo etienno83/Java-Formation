@@ -1,0 +1,24 @@
+package fr.adaming.model.banque;
+
+public class CompteCourant extends Compte {
+
+	protected double decouvert;
+
+	public CompteCourant() {
+		super();
+	}
+
+	public CompteCourant(double decouvert) {
+		super();
+		this.decouvert = decouvert;
+	}
+
+	public double getDecouvert() {
+		return decouvert;
+	}
+
+	public void setDecouvert(double decouvert) {
+		this.decouvert = decouvert;
+	}
+
+}

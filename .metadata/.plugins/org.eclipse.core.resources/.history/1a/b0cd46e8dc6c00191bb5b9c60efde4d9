@@ -1,0 +1,3 @@
+//Le nom d'une interface commence toujours par I.
+//Une constante s'écrit en MAJUSCULE, toujours public static final. 
+//Les attributs d'une interface sont par défauts public static final.

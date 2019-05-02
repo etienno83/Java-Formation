@@ -1,0 +1,21 @@
+package fr.adaming.test;
+
+public class ExoTableau {
+	
+	public static void main(String[] args) {
+		int tab3[] = {15,2,10,8,3,50,19};
+		int max = tab3[0];
+		int index = 0;
+		for (int i = 0; i < tab3.length; i++) {
+			if(tab3[i]> max){
+				max = tab3[i];
+				index = i;
+				
+		}
+		}
+		tab3[0] = max;
+		
+		System.out.println("Le maximum est : " + max + " \nLa position du max est : " + index);
+	}
+
+}

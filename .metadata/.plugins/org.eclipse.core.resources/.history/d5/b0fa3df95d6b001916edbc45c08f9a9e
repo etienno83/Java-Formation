@@ -1,0 +1,6 @@
+package fr.adaming.model.heritage;
+
+public class Scolaire extends Personne {
+	public String nom_etablissement;
+	public String niveau;
+}

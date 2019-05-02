@@ -1,0 +1,2 @@
+// Généricité : le type des attributs est generique et change en fonction de l'utilisation
+//Ajouter un <T> apres "NomClass" et changer tout les noms des types par T.

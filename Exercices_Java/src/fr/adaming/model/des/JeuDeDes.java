@@ -1,0 +1,14 @@
+package fr.adaming.model.des;
+
+public class JeuDeDes {
+
+	public int[] jouer() {
+
+		int a = (int) (1 + 6 * Math.random());
+		int b = (int) (1 + 6 * Math.random());
+		int c = (int) (1 + 6 * Math.random());
+		int[] tab = { a, b, c };
+		;
+		return tab;
+	}
+}

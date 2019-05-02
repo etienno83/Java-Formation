@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;fr.adaming.modele&apos; to &apos;fr.adaming.model&apos;&#x0D;&#x0A;- Original project: &apos;03_typeObjet&apos;&#x0D;&#x0A;- Original element: &apos;03_typeObjet/src/fr.adaming.modele&apos;&#x0D;&#x0A;- Renamed element: &apos;03_typeObjet/src/fr.adaming.model&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;fr.adaming.modele&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;fr.adaming.modele" name="fr.adaming.model" qualified="false" references="true" stamp="1556203292920" textual="false" version="1.0"/>
+</session>

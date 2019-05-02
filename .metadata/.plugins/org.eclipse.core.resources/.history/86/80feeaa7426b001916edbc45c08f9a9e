@@ -1,0 +1,26 @@
+package fr.adaming.test.choix.multiples;
+
+import fr.adaming.model.choix.multiples.Reservation;
+
+public class ClassTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String categories = " ";
+		int nbPlaces = 0;
+		int prixPlace = 0;
+		
+		Reservation r = new Reservation(categories, nbPlaces, prixPlace);
+		
+		int resultat = r.reserver("VIP", 2);
+		
+		System.out.println(resultat);
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package fr.adaming.model;
+
+public class Etudiant extends Personne {
+	// Declaration attributs
+	private int numEtu;
+
+	// Constructeurs
+	public Etudiant() {
+		System.out.println("Je suis dans le constructeur vide de Etudiant");
+	}
+
+	public Etudiant(int numEtu) {
+		this.numEtu = numEtu;
+		System.out
+				.println("Je suis dans le constructeur avec parametres de Etudiant");
+	}
+
+	// Getters/ Setters
+	public int getNumEtu() {
+		return numEtu;
+	}
+
+	public void setNumEtu(int numEtu) {
+		this.numEtu = numEtu;
+	}
+
+	// methode Etudiant
+	public void reviser(String cours) {
+		System.out.println("Je révise le cours : " + cours);
+	}
+}

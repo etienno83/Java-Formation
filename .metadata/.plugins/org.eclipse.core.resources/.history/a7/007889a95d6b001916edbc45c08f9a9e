@@ -1,0 +1,17 @@
+package fr.adaming.model.heritage;
+
+public class Personne {
+	
+	public String nom;
+	public int age;
+	
+	public Personne(String nom, int age) {
+		super();
+		this.nom = nom;
+		this.age = age;
+	}
+	
+	
+	
+
+}

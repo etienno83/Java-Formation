@@ -1,0 +1,32 @@
+package fr.adaming.model.mairie;
+
+public class Acte {
+	
+	private int numeroActe;
+
+	public Acte() {
+		super();
+	}
+
+	public Acte(int numeroActe) {
+		super();
+		this.numeroActe = numeroActe;
+	}
+
+	public int getNumeroActe() {
+		return numeroActe;
+	}
+
+	public void setNumeroActe(int numeroActe) {
+		this.numeroActe = numeroActe;
+	}
+
+	@Override
+	public String toString() {
+		return "Acte [numeroActe=" + numeroActe + "]";
+	}
+	
+	
+	
+
+}

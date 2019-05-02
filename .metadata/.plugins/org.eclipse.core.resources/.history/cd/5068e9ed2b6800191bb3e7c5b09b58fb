@@ -1,0 +1,20 @@
+package fr.adaming.test;
+
+public class ClassTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 2;
+	if(a >= 10){
+		System.out.println("Bravo");
+		}
+	else if(a>=5){
+		System.out.println("Nul faut bosser");
+	}
+	else{
+		System.out.println("ouste dehors");
+	}
+
+	}
+
+}

@@ -1,0 +1,24 @@
+1556525539514	Rename package 'Calcul_Modele'
+1556525556649	Rename package 'Calcul_Test'
+1556529252074	Rename type 'Calcul'
+1556529288150	Rename package 'fr.adaming.model'
+1556529303968	Rename package 'fr.adaming.test1'
+1556529331815	Rename package 'fr.adaming.test2'
+1556529341914	Rename package 'fr.adaming.test'
+1556548875981	Rename type 'ModelVoyelle'
+1556548891001	Rename type 'Chaine'
+1556579869998	Rename type 'ChoixMultiplesModel'
+1556618654319	Move compilation unit
+1556618676464	Delete element
+1556618722575	Rename package 'ChoixMultiplesModel'
+1556618735606	Rename package 'fr.adaming.modeldes'
+1556618746778	Rename package 'fr.adaming.modelvoyelle'
+1556618764802	Rename package 'fr.adaming.testvoyelle'
+1556618794232	Rename package 'SecondDegreModel'
+1556618831213	Move compilation unit
+1556625015483	Rename type 'ChoixMultiples'
+1556627468281	Delete element
+1556627484787	Delete element
+1556636136539	Rename type 'Heritage'
+1556636352984	Delete element
+1556636356553	Delete element

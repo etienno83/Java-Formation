@@ -1,0 +1,38 @@
+package fr.adaming.modeldes;
+
+public class ModelDes {
+
+	public static void main(String[] args) {
+
+		int min = 1;
+		int max = 6;
+		int[] des1 = { 0, 0, 0, 0, 0, 0 };
+		int[] des2 = { 0, 0, 0, 0, 0, 0 };
+		int[] des3 = { 0, 0, 0, 0, 0, 0 };
+
+		for (int i = 0; i < 6; i++) {
+			int r = (int) (Math.random() * (max - min)) + min;
+			des1[i] = r;
+		}
+		for (int i = 0; i < 6; i++) {
+			int r = (int) (Math.random() * (max - min)) + min;
+			des2[i] = r;
+		}
+		for (int i = 0; i < 6; i++) {
+			int r = (int) (Math.random() * (max - min)) + min;
+			des3[i] = r;
+		}
+
+		int[] DES[] = {des1, des2, des3 };
+
+		for (int j = 0; j <2 ; j++) {
+			if (DES[j].equals(DES[j + 1]) || DES[0].equals(DES[2])) {
+				System.out.println("Bien joué!");
+			} else {
+				System.out.println("C'est raté");
+			}
+		}
+
+	}
+
+}

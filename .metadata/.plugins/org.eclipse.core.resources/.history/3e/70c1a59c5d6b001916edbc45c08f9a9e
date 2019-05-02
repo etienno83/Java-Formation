@@ -1,0 +1,9 @@
+package fr.adaming.model.heritage;
+
+public class Personne {
+	
+	public String nom;
+	public int age;
+	
+
+}

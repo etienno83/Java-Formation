@@ -1,0 +1,16 @@
+package fr.adaming.test;
+
+import fr.adaming.model.MaClass;
+
+public class ClassTest {
+
+	public static void main(String[] args) {
+
+		MaClass m = new MaClass();
+
+		m.assigner("Toto");
+		
+		m.assigner(2000);
+
+	}
+}

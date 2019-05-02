@@ -1,0 +1,12 @@
+package fr.adaming.model;
+
+public class CompteCourant extends Compte {
+
+	//afin que la classe Compte Courant ne soit pas abstraite par defaut (elle hérite d'une classe abstraite qui contient une méthode abstraite donc elle est abstraite par défaut. Pour la rendre concrete il fautappeler la méthode abstraite et la rende concrete (clique droit sur Compte Courant et choisi la unimplemented method.
+	@Override
+	public void retraitArgent(double somme) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

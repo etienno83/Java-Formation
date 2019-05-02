@@ -1,0 +1,54 @@
+package fr.adaming.model.mairie;
+
+public class Acte {
+	
+	private int numeroActe;
+	
+	//traduction de la relation multi entre accte et Personne
+	
+	private Personne p1;
+	private Personne p2;
+
+	public Acte() {
+		super();
+	}
+
+	public Acte(int numeroActe) {
+		super();
+		this.numeroActe = numeroActe;
+	}
+
+	public int getNumeroActe() {
+		return numeroActe;
+	}
+
+	public void setNumeroActe(int numeroActe) {
+		this.numeroActe = numeroActe;
+	}
+
+	
+	public Personne getP1() {
+		return p1;
+	}
+
+	public void setP1(Personne p1) {
+		this.p1 = p1;
+	}
+
+	public Personne getP2() {
+		return p2;
+	}
+
+	public void setP2(Personne p2) {
+		this.p2 = p2;
+	}
+
+	@Override
+	public String toString() {
+		return "Acte [numeroActe=" + numeroActe + "]";
+	}
+	
+	
+	
+
+}

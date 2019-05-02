@@ -1,0 +1,19 @@
+package fr.adaming.model;
+
+public class Personne {
+	
+	//Declaration des attributs
+	public String nom;
+	public String prenom;
+	public int age;
+	
+	public void manger(String plat){
+		System.out.println("Je suis en train de manger " + plat);
+	}
+	public double marcher(){
+		System.out.println("Je suis en train de marcher");
+		
+		return 4.5;
+	}
+}
+

@@ -1,0 +1,2 @@
+// Une classe abstraite ne peut pas être instancier.
+//Pour rendre une classe abstraite il suffit d'écrire abstract entre public et "NomClasse"

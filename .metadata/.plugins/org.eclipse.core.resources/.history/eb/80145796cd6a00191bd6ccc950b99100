@@ -1,0 +1,51 @@
+package fr.adaming.modeldes;
+
+import java.util.Scanner;
+
+public class ModelDes {
+
+	public int[] jeter(int[] lance) {
+		
+		Scanner sc = new Scanner(System.in);
+		int[] resultat;
+		int[] des1 = { 1, 2, 3, 4, 5, 6 };
+		int[] des2 = { 1, 2, 3, 4, 5, 6 };
+		int[] des3 = { 1, 2, 3, 4, 5, 6 };
+
+		int temp = 1;
+
+		for (int i = 0; i < des3.length; i++) {
+			temp = des3[i + 1];
+			des3[i + 1] = des3[i];
+			des3[i] = temp;
+
+			temp = des1[i + 1];
+			des2[i + 1] = des2[i];
+			des3[i] = temp;
+
+			temp = des3[i + 1];
+			des2[i + 1] = des1[i];
+			des3[i] = temp;
+
+		}
+		for(int elem : des1){
+			System.out.println(elem+"");
+			
+			int Des1 = sc.nextInt();
+		}
+		for(int elem : des2){
+			System.out.println(elem+"");
+			
+			int Des2 = sc.nextInt();
+		}
+		for(int elem : des3){
+			System.out.println(elem+"");
+			
+			int Des3 = sc.nextInt();
+		}
+		resultat = {Des1, Des2, Des3};
+		return resultat;
+
+	}
+
+}

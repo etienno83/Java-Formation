@@ -1,0 +1,10 @@
+import fr.adaming.model.Employe;
+
+
+public class ClassTest {
+	
+	public static void main(String[] args) {
+		Employe e1 = new Employe("Le Vaguerese", "Etienne", 45000);
+	}
+
+}

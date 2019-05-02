@@ -1,0 +1,14 @@
+package fr.adaming.test.banque;
+
+import fr.adaming.model.banque.CompteCourant;
+
+public class ClassTest {
+	
+	public static void main(String[] args) {
+		
+		CompteCourant cc = new CompteCourant();
+		
+		
+	}
+
+}

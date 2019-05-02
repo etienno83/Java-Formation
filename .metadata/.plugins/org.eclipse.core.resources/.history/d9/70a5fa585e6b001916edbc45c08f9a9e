@@ -1,0 +1,21 @@
+package fr.adaming.model.heritage;
+
+public class Lyceen {
+	char bac;
+
+	public Lyceen(char bac) {
+		super();
+		this.bac = bac;
+	}
+
+	public char getBac() {
+		return bac;
+	}
+
+	public void setBac(char bac) {
+		this.bac = bac;
+	}
+	
+	
+
+}

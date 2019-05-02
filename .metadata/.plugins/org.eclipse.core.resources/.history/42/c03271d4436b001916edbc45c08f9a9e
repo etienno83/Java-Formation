@@ -1,0 +1,66 @@
+package fr.adaming.model.choix.multiples;
+
+import java.util.Scanner;
+
+class Choix {
+	public static void main(String[] args) {
+		// Scanner
+		Scanner sc = new Scanner(System.in);
+
+		// initialisation des variables
+		double nbplaces, montant = 0;
+		char reponse = ' ', mode = ' ';
+
+		System.out.println("RESERVATION A CHOIX MULTIPLES");
+		System.out.println("-------------------------------------------------");
+
+		do {// tant que reponse = O //boucle principale
+
+			do {// tant que reponse n'est pas O ou N
+				mode = ' ';
+				System.out.println("Choisissez la catégorie");
+				System.out.println("1 - VIP soit 25 euros la place");
+				System.out.println("2 - Normale soit 5 euros la place");
+				mode = sc.nextLine().charAt(0);
+
+				if (mode != '1' && mode != '2')
+					System.out
+							.println("Catégorie inconnue, veuillez réitérer votre choix.");
+
+			} while (mode != '1' && mode != '2');
+
+			// saisie du nombre de places
+			System.out.println("Nombre de places?");
+			nbplaces = sc.nextDouble();
+			// Vider la ligne lue!
+			sc.nextLine();
+
+			// Selon le mode, on calcule différemment et on affiche le résultat
+			if (mode == '1') {
+				montant = ((25 * nbplaces));
+				System.out.print("Le total a payer est de : " + montant + "€");
+			} else {
+				montant = ((5 * nbplaces));
+				System.out.print("Le prix a payer est de : " + montant + "€ ");
+			}
+
+			// On invite l'utilisateur à recommencer ou à quitter
+			do {
+				System.out
+						.println("\nSouhaitez-vous réaliser une nouvelle réservation ?(O/N)");
+				reponse = sc.nextLine().charAt(0);
+
+			} while (reponse != 'O' && reponse != 'N');
+
+			sc.close();
+		} while (reponse == 'O');
+
+		System.out.println("Au revoir et bonne représentation!");
+
+		// Fin de programme
+	}
+
+	public static double arrondi(double A, int B) {
+		return (double) ((int) (A * Math.pow(10, B) + .5)) / Math.pow(10, B);
+	}
+}

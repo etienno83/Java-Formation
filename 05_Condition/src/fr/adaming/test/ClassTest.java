@@ -1,0 +1,46 @@
+package fr.adaming.test;
+
+public class ClassTest {
+
+	public static void main(String[] args) {
+		
+		//structure de controle If/else
+		int a = 2;
+	if(a >= 10){
+		System.out.println("Bravo");
+		}
+	else if(a>=5){
+		System.out.println("Nul faut bosser");
+	}
+	else{
+		System.out.println("ouste dehors");
+	}
+	// structure de controle de Switch
+	String nom = "Nanard";
+	
+	switch (nom) {
+	case "Nanard":
+		System.out.println("Salut Nanard");
+		break;
+
+	case "foufou":
+		System.out.println("Salut foufou");
+		break;
+		
+	case "Nomane":
+		System.out.println("Salut Nomane");
+		
+	default:
+		System.out.println("error 404");
+		break;
+	}
+	int c, d, z;
+	c=2;
+	d=3;
+	z = (c>d)?c*2:d*3;
+	System.out.println("la valeur de z est : " + z);
+	
+
+	}
+
+}

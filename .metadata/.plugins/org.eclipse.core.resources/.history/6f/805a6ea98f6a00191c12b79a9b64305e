@@ -1,0 +1,21 @@
+package fr.adaming.testvoyelle;
+
+import fr.adaming.modelvoyelle.ModelVoyelle;
+
+public class ClassTestVoyelle {
+	
+	public static void main(String[] args) {
+		String str = "Salut à tous comment ça va";
+		
+		ModelVoyelle vc = new ModelVoyelle();
+		
+		String resultat = vc.extraire(str);
+		
+		System.out.println(resultat);
+		
+		
+		
+		
+	}
+
+}
